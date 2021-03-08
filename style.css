@@ -9,11 +9,10 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
     background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    background-position: right 50vw bottom 40vh, left 50vw top 50vh;
 }
 
 main {
-    width: 100vw;
     min-height: calc(100vh - 50px);
     display: flex;
     align-items: center;
@@ -21,11 +20,11 @@ main {
 }
 
 section {
+    margin-top: 50px;
     background-color: white;
     width: 340px;
     height: 380px;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px hsl(0, 0%, 50%);
 }
 
 .cover {
@@ -52,6 +51,7 @@ section {
     display: flex;
     justify-content: center;
     padding-top: 70px;
+    align-items: flex-end;
 }
 
 .name {
@@ -59,7 +59,7 @@ section {
 }
 
 .age {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: lighter;
     padding-left: 10px;
     color: hsl(0, 0%, 40%);
@@ -89,8 +89,8 @@ section {
 
 .details {
     padding-top: 8px;
-    font-size: small;
-    letter-spacing: 2px;
+    font-size: 11px;
+    letter-spacing: 1.5px;
     color: hsl(0, 0%, 40%);
 }
 
